@@ -1,0 +1,1050 @@
+/* -------------------------CSS------------------------- */
+
+/* ----------------------------------------------------- */
+
+@media (max-width: 575px) {
+  body {
+    overflow: hidden;
+    height: 100vh;
+  }
+}
+
+/* ---------------------Div-ul mare--------------------- */
+
+@media (min-width: 1200px) {
+  #Telecomanda {
+    padding-top: 27px;
+  }
+}
+
+@media (max-width: 575px) {
+  #Telecomanda {
+    padding-top: 94px;
+  }
+}
+
+/* ----------------------------------------------------- */
+
+/* -------------Meniu pentru rezolutie mica------------- */
+
+@media (min-width: 1200px) {
+  ul {
+    display: none;
+  }
+}
+
+@media (min-width: 992px) {
+  ul {
+    display: none;
+  }
+}
+
+ul {
+  position: fixed;
+  top: 0;
+  text-align: center;
+  margin-left: auto;
+  left: 50%;
+  transform: translate(-50%, 0);
+  overflow: hidden;
+  width: 310px;
+  height: 40px;
+  border-radius: 8px;
+  font-size: 0;
+  box-shadow: 0 2px 3px 0 rgba(0,0,0,.1);
+  margin-top: 38px;
+  margin-bottom: -108px;
+  z-index: 1;
+}
+
+ul li {
+  font-size: 15px;
+  text-decoration: none;
+  line-height: 50px;
+  position: relative;
+  text-align: center;
+  display: inline-block;
+  font-weight: bold;
+  text-align: center;
+  z-index: 1;
+}
+
+ul li a {
+  font-size: 15px;
+  text-decoration: none;
+  line-height: 50px;
+  position: relative;
+  text-align: center;
+  display: inline-block;
+  font-weight: bold;
+  text-align: center;
+  z-index: 1;
+}
+
+.animation {
+  position: absolute;
+  height: 3px;
+  left: 27px;
+  bottom: 0;
+  z-index: 0;
+  background: rgb(0,25,255);
+  width: 59px;
+  border-radius: 5px;
+  transition: all .5s ease 0s;
+}
+
+ul li:nth-child(1).active ~ .animation {
+  width: 29px;
+  left: 29px;
+}
+
+ul li:nth-child(2).active ~ .animation {
+  width: 55px;
+  left: 93px;
+}
+
+ul li:nth-child(3).active ~ .animation {
+  width: 100px;
+  left: 184px;
+}
+
+ul li:nth-child(1) {
+  width: 40px;
+  left: -22px;
+}
+
+ul li:nth-child(2) {
+  width: 90px;
+  left: -9px;
+}
+
+ul li:nth-child(3) {
+  width: 131px;
+  left: -7px;
+}
+
+/* ----------------------------------------------------- */
+
+/* ---------paragraph Smart Car Remote Control--------- */
+
+@media (max-width: 575px) {
+  #Smart-Car-Remote-Control-Paragraph {
+    margin-top: -63px;
+    position: fixed;
+    top: 0;
+    justify-content: center;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+}
+
+@media (min-width: 1200px) {
+  #Smart-Car-Remote-Control-Paragraph {
+    margin-top: -50px;
+  }
+}
+
+@media (min-width: 992px) {
+  #Smart-Car-Remote-Control-Paragraph {
+    margin-top: -50px;
+  }
+}
+
+@media (min-width: 576px) {
+  .text-monospace.text-nowrap.text-truncate.text-break.text-center.text-primary.d-flex.d-sm-flex.justify-content-center.align-items-center.justify-content-sm-center.align-items-sm-center {
+    font-size: 26px;
+  }
+}
+
+@media (min-width: 300px) {
+  .text-monospace.text-nowrap.text-truncate.text-break.text-center.text-primary.d-flex.d-sm-flex.justify-content-center.align-items-center.justify-content-sm-center.align-items-sm-center {
+    font-size: 23px;
+  }
+}
+
+/* ----------------------------------------------------- */
+
+/* ----------------------------------------------------- */
+
+/* ----------------------Live Image--------------------- */
+
+@media (min-width: 1200px) {
+  #Live-Video-Image {
+    margin-top: 42px;
+    width: 352px;
+    height: 233px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  #Live-Video-Image {
+    margin-top: 42px;
+    width: 352px;
+    height: 209px;
+  }
+}
+
+@media (max-width: 575px) {
+  #Live-Video-Image {
+    margin-top: 7px;
+    width: 352px;
+    height: 233px;
+  }
+}
+
+@media (max-width: 575px) {
+  #Live {
+    margin-top: -22px;
+    width: 351px;
+    height: 257px;
+    position: fixed;
+    justify-content: center;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+}
+
+@media (min-width: 1200px) {
+  .img-container img {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50%;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  #Live {
+    order: 1;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  #Butoane-Comenzi-Masina {
+    order: 2;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  #Butoane-Comenzi-Camera {
+    order: 3;
+  }
+}
+
+@media (min-width: 992px) {
+  .img-container img {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50%;
+  }
+}
+
+@media (min-width: 768px) {
+  .img-container img {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50%;
+  }
+}
+
+@media (min-width: 576px) {
+  .img-container img {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50%;
+  }
+}
+
+@media (min-width: 300px) {
+  .img-container img {
+    top: 0;
+    left: 0;
+    width: 70%;
+    height: 70%;
+  }
+}
+
+#Live-Video-Image {
+  border-radius: 0px 0px 0px 0px;
+  -moz-border-radius: 0px 0px 0px 0px;
+  -webkit-border-radius: 0px 0px 0px 0px;
+  border: 10px inset #d2d5d8;
+}
+
+/* ----------------------------------------------------- */
+
+/* -------------------Butone-Design--------------------- */
+
+.btn {
+  -moz-box-shadow: 0px -3px 0px 0px #e3dfdf;
+  -webkit-box-shadow: 0px -3px 0px 0px #dfe2e3;
+  box-shadow: inset 0px -3px 0px 0px #dfe2e3;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ededed), color-stop(1, #ffffff));
+  background: -webkit-linear-gradient(top, #ededed 5%, #ffffff 100%);
+  background: linear-gradient(to bottom, #ededed 5%, #ffffff 100%);
+  background-color: #ededed;
+  -webkit-border-radius: 29px;
+  -moz-border-radius: 29px;
+  border-radius: 29px;
+  border: 1px solid #e6e6e6;
+  display: inline-block;
+  cursor: pointer;
+  color: #3399ff;
+  font-family: Arial;
+  font-size: 28px;
+  padding: 5px 40px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #e1e2ed;
+}
+
+.btn:hover {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ffffff), color-stop(1, #ededed));
+  background: -webkit-linear-gradient(top, #ffffff 5%, #ededed 100%);
+  background: linear-gradient(to bottom, #ffffff 5%, #ededed 100%);
+  background-color: #ffffff;
+}
+
+.btn:active {
+  position: relative;
+  top: 1px;
+}
+
+.btn:focus {
+  box-shadow: inset 0 -1px 0 #ddd;
+  -moz-box-shadow: 0px -3px 0px 0px #e3dfdf;
+  /*-webkit-box-shadow: 0px -3px 0px 0px #dfe2e3;*/
+  box-shadow: inset 0px -3px 0px 0px #dfe2e3;
+  /*backface-visibility: hidden;*/
+}
+
+@media (min-width: 1200px) {
+  #stop {
+    box-shadow: inset 0px 0px 0px 0px #f29c93;
+    background: linear-gradient(to bottom, #fe1a00 5%, #ce0100 100%);
+    background-color: #fe1a00;
+    border-radius: 27px;
+    border: 4px solid #ffffff;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 17px;
+    font-weight: bold;
+    text-decoration: none;
+    text-shadow: 0px 0px 0px #b23e35;
+    padding-bottom: 15px;
+    margin-top: -6px;
+    width: 87px;
+    padding: 14px 20px;
+    padding-left: 17px;
+    height: 70px;
+  }
+}
+
+@media (min-width: 992px) {
+  #stop {
+    box-shadow: inset 0px 0px 0px 0px #f29c93;
+    background: linear-gradient(to bottom, #fe1a00 5%, #ce0100 100%);
+    background-color: #fe1a00;
+    border-radius: 27px;
+    border: 4px solid #ffffff;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 17px;
+    font-weight: bold;
+    text-decoration: none;
+    text-shadow: 0px 0px 0px #b23e35;
+    padding-bottom: 15px;
+    margin-top: -6px;
+    width: 87px;
+    padding: 14px 20px;
+    padding-left: 17px;
+    height: 70px;
+  }
+}
+
+@media (max-width: 575px) {
+  #stop {
+    box-shadow: inset 0px 0px 0px 0px #f29c93;
+    background: linear-gradient(to bottom, #fe1a00 5%, #ce0100 100%);
+    background-color: #fe1a00;
+    border-radius: 27px;
+    border: 4px solid #ffffff;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 17px;
+    font-weight: bold;
+    text-decoration: none;
+    text-shadow: 0px 0px 0px #b23e35;
+    padding-bottom: 15px;
+    margin-top: -6px;
+    width: 83px;
+    padding: 14px 20px;
+    padding-left: 15px;
+    height: 70px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #stop {
+    box-shadow: inset 0px 0px 0px 0px #f29c93;
+    background: linear-gradient(to bottom, #fe1a00 5%, #ce0100 100%);
+    background-color: #fe1a00;
+    border-radius: 27px;
+    border: 4px solid #ffffff;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 17px;
+    font-weight: bold;
+    text-decoration: none;
+    text-shadow: 0px 0px 0px #b23e35;
+    padding-bottom: 15px;
+    margin-top: -6px;
+    width: 87px;
+    padding: 14px 20px;
+    padding-left: 17px;
+    height: 70px;
+  }
+}
+
+#stop:hover {
+  background: linear-gradient(to bottom, #ce0100 5%, #fe1a00 100%);
+  background-color: #ce0100;
+}
+
+#stop:active {
+  position: relative;
+  top: 1px;
+}
+
+@media (min-width: 1200px) {
+  #Stop {
+    margin-top: 24px;
+    padding-left: 24px;
+    margin-bottom: 24px;
+    justify-content: center;
+    margin-left: -6px;
+    margin-right: 5px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  #Stop {
+    margin-top: 18px;
+    padding-left: 24px;
+    margin-bottom: 24px;
+    justify-content: center;
+    margin-left: -1px;
+  }
+}
+
+@media (max-width: 575px) {
+  #Stop {
+    width: 97px;
+    height: 65px;
+    margin-left: -37px;
+    margin-top: 37px;
+    justify-content: center;
+    margin-right: -35px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #Inainte {
+    margin-top: 40px;
+    margin-bottom: -38px;
+    width: 84px;
+    outline: none;
+  }
+}
+
+@media (max-width: 575px) {
+  #Inainte {
+    margin-top: 40px;
+    margin-bottom: -38px;
+    width: 80px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  #Inainte {
+    margin-top: 40px;
+    margin-bottom: -38px;
+    width: 80px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #Sus {
+    margin-top: 40px;
+    width: 41px;
+  }
+}
+
+@media (max-width: 575px) {
+  #Sus {
+    width: 80px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  #Sus {
+    width: 80px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #Inainte-Stanga {
+    margin-bottom: 16px;
+  }
+}
+
+@media (max-width: 575px) {
+  #Inainte-Stanga {
+    width: 80px;
+    margin-bottom: 10px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  #Inainte-Stanga {
+    width: 80px;
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 575px) {
+  #Inapoi-Stanga {
+    width: 80px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  #Inapoi-Stanga {
+    width: 80px;
+  }
+}
+
+@media (max-width: 575px) {
+  #Inainte-Dreapta {
+    width: 80px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  #Inainte-Dreapta {
+    width: 80px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #Inapoi-Dreapta {
+    margin-top: 16px;
+  }
+}
+
+@media (max-width: 575px) {
+  #Inapoi-Dreapta {
+    width: 80px;
+    margin-top: 10px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  #Inapoi-Dreapta {
+    width: 80px;
+    margin-top: 10px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #Inapoi {
+    margin-bottom: -38px;
+    width: 84px;
+  }
+}
+
+@media (max-width: 575px) {
+  #Inapoi {
+    width: 80px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  #Inapoi {
+    width: 80px;
+  }
+}
+
+/* ----------------------------------------------------- */
+
+/* -------------------Butone Pozitii-------------------- */
+
+@media (max-width: 575px) {
+  #Butoane-Comenzi-Masina {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 150vh;
+    justify-content: center;
+    left: 50%;
+    transform: translate(-50%, 0);
+    margin-top: -108px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #Butoane-Comenzi-Masina {
+    padding-right: 81px;
+    padding-left: 30px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  #Butoane-Comenzi-Masina {
+    padding-right: 81px;
+    padding-left: 30px;
+    padding-top: 50px;
+    margin-top: 5px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #Butoane-Comenzi-Camera {
+    margin-top: 33px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  #Butoane-Comenzi-Camera {
+    margin-top: 71px;
+  }
+}
+
+@media (max-width: 575px) {
+  #Butoane-Comenzi-Camera {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 140vh;
+    justify-content: center;
+    left: 50%;
+    transform: translate(-50%, 0);
+    margin-top: -36px;
+    margin-bottom: 202px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .row-Buton-Inainte {
+    padding-left: 35px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .row-Buton-Inainte {
+    padding-left: 73px;
+    padding-bottom: 19px;
+    margin-top: -38px;
+    margin-bottom: -20px;
+    margin-left: -56px;
+  }
+}
+
+@media (max-width: 575px) {
+  #row-Buton-Inainte {
+    margin-top: -39px;
+    margin-bottom: -9px;
+    z-index: 2;
+  }
+}
+
+@media (min-width: 1200px) {
+  .row-Buton-Inapoi {
+    padding-left: 33px;
+    margin-top: -6px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .row-Buton-Inapoi {
+    padding-left: 33px;
+    margin-top: -10px;
+    margin-left: -15px;
+  }
+}
+
+@media (max-width: 575px) {
+  #row-Buton-Inapoi {
+    margin-top: -12px;
+    margin-bottom: 27px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #row-Stanga-Dreapta-Camera {
+    justify-content: center;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  #row-Stanga-Dreapta-Camera {
+    justify-content: center;
+    margin-top: 1px;
+    margin-left: 27px;
+  }
+}
+
+@media (max-width: 575px) {
+  #row-Stanga-Dreapta-Camera {
+    padding-left: -21px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #row-Stanga-Dreapta {
+    margin-top: 24px;
+    padding-top: 19px;
+    margin-left: -3px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  #row-Stanga-Dreapta {
+    margin-top: 24px;
+    padding-top: 19px;
+    margin-left: -1px;
+  }
+}
+
+@media (max-width: 575px) {
+  #row-Stanga-Dreapta {
+    margin-top: 10px;
+    padding-top: 19px;
+    margin-left: -49px;
+    z-index: 1;
+  }
+}
+
+@media (min-width: 1200px) {
+  #Stanga {
+    margin-top: -12px;
+    margin-left: -2px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  #Stanga {
+    margin-top: -12px;
+    margin-left: -27px;
+    padding-left: -8px;
+  }
+}
+
+@media (max-width: 575px) {
+  #Stanga {
+    width: 104px;
+    margin-left: 16px;
+    margin-right: 18px;
+    margin-top: 5px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #Dreapta {
+    margin-top: -12px;
+    padding-left: 12px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  #Dreapta {
+    margin-top: -12px;
+    padding-left: 12px;
+    margin-left: 28px;
+  }
+}
+
+@media (max-width: 575px) {
+  #Dreapta {
+    width: 124px;
+    margin-top: 5px;
+    margin-left: 18px;
+    margin-right: -24px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #Stanga-Camera {
+    margin-right: 14px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  #Stanga-Camera {
+    margin-right: 61px;
+    margin-left: -62px;
+  }
+}
+
+@media (max-width: 575px) {
+  #Stanga-Camera {
+    width: 106px;
+    padding-right: 9px;
+    margin-left: -23px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #Buton-Stanga-Camera {
+    margin-bottom: 16px;
+    width: 41px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #Buton-Jos-Camera {
+    margin-bottom: 16px;
+    width: 41px;
+  }
+}
+
+@media (max-width: 575px) {
+  #Buton-Stanga-Camera {
+    width: 80px;
+  }
+}
+
+@media (max-width: 575px) {
+  #Buton-Jos-Camera {
+    width: 80px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  #Buton-Stanga-Camera {
+    width: 80px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  #Buton-Jos-Camera {
+    width: 80px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #Dreapta-Camera {
+    margin-left: 18px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  #Dreapta-Camera {
+    margin-left: 18px;
+  }
+}
+
+@media (max-width: 575px) {
+  #Dreapta-Camera {
+    width: 105px;
+    padding-left: 31px;
+    margin-left: 4px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #Buton-Dreapta-Camera {
+    width: 41px;
+  }
+}
+
+@media (max-width: 575px) {
+  #Buton-Dreapta-Camera {
+    width: 80px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  #Buton-Dreapta-Camera {
+    width: 80px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #Buton-Jos {
+    width: 41px;
+  }
+}
+
+@media (max-width: 575px) {
+  #Buton-Jos {
+    width: 80px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  #Buton-Jos {
+    width: 80px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #row-Jos {
+    margin-top: -17px;
+  }
+}
+
+/* ----------------------------------------------------- */
+
+/* ----------------------------------------------------- */
+
+@media (max-width: 575px) {
+  #Speed-Light {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 220px;
+    height: 255px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  #Speed-Light {
+    /*display: flex;*/
+    /*flex-direction: column;*/
+    /*width: 100%;*/
+    margin-top: 15px;
+    height: 255px;
+  }
+}
+
+/* ----------------------------------------------------- */
+
+/* -------------------Paragraph Speed------------------- */
+
+@media (min-width: 1200px) {
+  #Table-Speed {
+    width: 368px;
+    margin-top: -23px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  #Table-Speed {
+    width: 368px;
+    margin-top: -23px;
+  }
+}
+
+@media (max-width: 575px) {
+  #Table-Speed {
+    margin-top: -12px;
+    margin-bottom: 2px;
+    height: 88px;
+    overflow: hidden;
+  }
+}
+
+@media (min-width: 1200px) {
+  #Paragraph-Speed {
+    margin-top: 18px;
+  }
+}
+
+@media (max-width: 575px) {
+  #Paragraph-Speed {
+    margin-top: 20px;
+    margin-bottom: -25px;
+    height: 68px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #Paragraph-speed {
+    font-size: 26px;
+  }
+}
+
+@media (max-width: 575px) {
+  #Paragraph-speed {
+    font-size: 30px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #row-Speed {
+    justify-content: center;
+    text-align: center;
+  }
+}
+
+/* ----------------------------------------------------- */
+
+/* -------------------Paragraph Light------------------- */
+
+@media (min-width: 1200px) {
+  #Table-Light {
+    width: 305px;
+    height: 97px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  #Table-Light {
+    width: 305px;
+    height: 97px;
+  }
+}
+
+@media (max-width: 575px) {
+  #Table-Light {
+    width: 305px;
+    height: 81px;
+    margin-top: -10px;
+    overflow: hidden;
+  }
+}
+
+@media (max-width: 575px) {
+  #Paragraph-Light {
+    margin-top: -14px;
+    margin-bottom: -4px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  #Paragraph-Light {
+    margin-top: -16px;
+    margin-bottom: -1px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #Paragraph-light {
+    font-size: 26px;
+  }
+}
+
+@media (max-width: 575px) {
+  #Paragraph-light {
+    font-size: 26px;
+  }
+}
+
+/* ----------------------------------------------------- */
+
